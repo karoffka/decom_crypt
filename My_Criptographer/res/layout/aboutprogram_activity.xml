@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="382.0dip" android:layout_height="553.0dip" android:layout_marginTop="28.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.482" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_gravity="center" android:id="@id/textView" android:layout_width="350.0dip" android:layout_height="fill_parent" android:text="" />
+            <ImageButton android:layout_gravity="center" android:id="@id/imageBtn_VK" android:layout_width="55.0dip" android:layout_height="55.0dip" android:onClick="onCLick" app:srcCompat="@drawable/vk_blue_logo_t_50x50" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

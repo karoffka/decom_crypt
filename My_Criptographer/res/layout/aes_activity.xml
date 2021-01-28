@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:id="@id/input_text" android:layout_width="155.0dip" android:layout_height="89.0dip" android:text="" android:hint="@string/Введите_текст" android:layout_x="122.0dip" android:layout_y="40.0dip" />
+    <EditText android:id="@id/password" android:layout_width="159.0dip" android:layout_height="62.0dip" android:text="" android:hint="@string/Введите_Пароль" android:layout_x="122.0dip" android:layout_y="144.0dip" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_x="0.0dip" android:layout_y="220.0dip">
+        <RadioButton android:id="@id/radio_128" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:checked="true" android:text="128" />
+        <RadioButton android:id="@id/radio_192" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="192" />
+        <RadioButton android:id="@id/radio_256" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="256" />
+    </RadioGroup>
+    <TextView android:gravity="center" android:id="@id/secret_text" android:layout_width="151.0dip" android:layout_height="92.0dip" android:text="" android:hint="@string/Ваш_шифр" android:layout_x="123.0dip" android:layout_y="285.0dip" />
+    <Button android:id="@id/BtnEncrypt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/encrypt" android:layout_x="50.0dip" android:layout_y="390.0dip" android:textAllCaps="false" />
+    <Button android:id="@id/BtnDecrypt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/decrypt" android:layout_x="230.0dip" android:layout_y="390.0dip" android:textAllCaps="false" />
+    <Button android:id="@id/BtnCopyText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Скопировать" android:layout_x="50.0dip" android:layout_y="460.0dip" android:textAllCaps="false" />
+    <Button android:id="@id/BtnPasteText" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="Вставить" android:layout_x="230.0dip" android:layout_y="460.0dip" android:textAllCaps="false" />
+    <Button android:id="@id/BtnClearText" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="Очистить" android:layout_x="140.0dip" android:layout_y="530.0dip" android:textAllCaps="false" />
+    <ImageButton android:id="@id/BtnInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="330.0dip" android:layout_y="40.0dip" app:srcCompat="@android:drawable/ic_menu_info_details" />
+</AbsoluteLayout>
